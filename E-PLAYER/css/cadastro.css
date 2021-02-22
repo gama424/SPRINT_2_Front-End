@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+:root{
+
+    --background: #000000;
+    --font:  'Titillium Web'    'Roboto';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: var( --font );  
+    background-color: var( --background );      
+    font-size: 12px;
+    
+}
+
+
+.img{
+    width: 100%;
+}
+
+
+
+.topo{
+    font-size: 20px;
+    width: 100%;
+    height: 5em;
+    background-color: rgb(0, 0, 0);
+
+}
+
+
+.content{
+    width: 80%;
+    height: 50%;
+    max-width: 75em;
+    margin: auto;
+
+    
+
+}
+
+.content-flex-center{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    
+}
+
+
+.topo img{
+    max-width: 21.18em;
+}
+
+.menu{
+    width: 54em;
+}
+
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 1.5emx;
+    color: rgb(42, 42, 180);
+    font-family: 'Orbitron', sans-serif;
+    padding: 0.9em 2em;
+    text-transform: uppercase;
+}
+.menu a:hover{
+    background-color: rgb(29, 39, 46);
+   
+}
+
+.player{
+    right: -140px;
+    position: relative;
+    top: 70px;
+
+}
+
+
+.banner{
+   margin-left: 320px;
+   background-color: rgb(0, 0, 0);
+   margin-top: 150px;
+   
+}
+
+.banner p{
+    color: rgb(28, 95, 172);
+    right: -185px;
+    position: relative;
+    font-family: 'Orbitron', sans-serif;
+    bottom: 50px;
+    font-size: 25px;
+}
+
+.cadastro{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 1600px;
+}
+
+.cadastro input{
+    width: 250px;
+    height: 50px;
+    background-color: rgb(165, 215, 245);
+    border-radius: 5px;
+}
+
+.nome{
+    position: relative;
+    left: 560px;
+    top: 100px;
+}
+.usuario{
+    position: relative;
+    left: 70px;
+    top: 200px;
+}
+.email{
+    position: relative;
+    left: 290px;
+    top: 200px;    
+}
+
+.rg{
+    position: relative;
+    right: 437px;
+    top: 300px;
+}
+.cpf{
+    position: relative;
+    right: 217px;
+    top: 300px;
+}
+    
+.endereco{
+    position: relative;
+    right: -323px;
+    top: 350px;
+}
+
+.bairro{
+    position: relative;
+    right: -671px;
+    top: 302px;
+}
+
+.numero{
+    position: relative;
+    right: -937px;
+    top: 252px;
+}
+.anexo{
+    position: relative;
+    right: -322px;
+    top: -30px;
+}
+
+.dados input{
+    width: 180px;
+    
+}
+.dados2 input{
+    width: 111px;
+
+
+    
+}
+.foto{
+    position: relative;
+    right: -545px;
+    top: -31px;
+}
+
+.cadastro img{
+    position: relative;
+    left: 163px;
+    top: 481px;
+}
+.metal{
+    position: relative;
+    left: 566px;
+    top: -289px;
+}
+.icon{
+    position: relative;
+    left: 184px;
+    top: -1171px;
+}
+
+
+
+
+
+
+::-webkit-input-placeholder {
+    color: rgb(0, 0, 0);
+    font: 30px  arial, sans-serif;
+ }
+ 
+ :-moz-placeholder {
+    color: rgb(0, 0, 0);
+    font: 30px  arial, sans-serif;
+ }
+ 
+ ::-moz-placeholder {
+    color: rgb(0, 0, 0);  
+    font: 30px  arial, sans-serif;
+ }
+ 
+ :-ms-input-placeholder {  
+    color: rgb(0, 0, 0);  
+    font: 30px  arial, sans-serif;
+ }
+
+#menu-bars{
+    display: none;
+}
+
+.rodapé{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+}
+
+.rodapé{
+    font-size: 20px;
+  
+}
+.rodapé h1{
+    position: relative;
+    left: 25px;
+    top: 150px;
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+    color: navy;
+   font-size: 20px;
+}
+.rodapé img{
+    position: relative;
+    left: 500px;
+    top: 63px;
+}
+
+.yes{
+    width: 165px;
+    position: relative;
+    left: 1217px;
+    top: -45;
+}
+
+
+@media screen and (max-width: 74.93em){
+
+}
+
+
+@media screen and (max-width: 47.93em){
+
+}
+
+
+@media screen and (max-width: 35.93em){
+
+#menu-bars{
+    display: block;
+}
+}

@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    background-color: rgb(221, 248, 239);
+    width: 100%;
+    height: 80px;
+}
+
+
+.cabecalho nav{
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.cabecalho nav a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding: 10px 30px;
+    color: black;
+}
+
+.cabecalho a:hover{
+    background-color: rgb(167, 252, 243);
+}
+.cabecalho nav audio{
+    justify-content: left;
+    display: flex;
+    position: relative;
+    right: 150px;
+    margin-bottom: 20px;
+}
+
+.cabecalho nav ul{
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 600px;
+    height: 80px;
+}
+
+.banner{
+    background-image: url("../images/m_a.jpg");
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.brasilia{
+    background-image: url("..//images/Design\ sem\ nome.png");
+    margin: 0 auto 0 auto;
+    width: 100%;
+    height: 400px;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.brasilia section h1{
+    font-family: 'Lemonada', cursive;
+    margin-bottom: 0;
+    padding-top: 15px;
+    position: relative;
+    left: 500px;
+    /* contorno */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    font-size: 2em; color: #ffee00;
+    
+}
+
+.brasilia section video{
+    position: relative;
+    left: 210px;
+}
+
+.text h2{
+    position: relative;
+    left: 800px;
+    padding-left: 80px;
+    top: -280px;
+    font-family: 'Lemonada', cursive;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    font-size: 2em; color: #0084ff;
+}
+
+.text p{
+    position: relative;
+    left: 800px;
+    justify-content: space-around;
+    font-display: 200px;
+    padding-left: 80px;
+    top: -255px;
+    font-size: 25px;
+    font-family: 'Sansita Swashed', cursive;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+     color: #f75a5a;
+
+}
+
+
+.integrantes{
+    background-color:rgba(196, 196, 255, 0.89);
+    width: 100%;
+    height: 350px;
+}
+
+.integrantes h1{
+    font-family: 'Lemonada', cursive;
+    position: relative;
+    left: 530px;
+    padding-top: 15px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(10, 71, 238);
+    font-size: 30px; color: #14dada;
+}
+
+.imagens{
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+.robocop{
+    background-image: linear-gradient(to bottom, rgba(196, 196, 255, 0.89), transparent);
+    position: relative;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 100px;
+}
+.robocop h1{
+    font-size: 20px;
+    font-family: 'Lemonada', cursive;
+    position: relative;
+    left: 290px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    font-size: 2em; color: #9b0d77;
+
+}
+.robocop section{
+    position: relative;
+    right: 243px;
+    top: 65px;
+}
+
+.rodape{
+    background-color: rgb(224, 223, 223);
+}
+.rodape h1{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 550px;
+}

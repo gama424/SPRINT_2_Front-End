@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"> 
+        <title>Landing Page - curso de desenvolvimento de sistemas</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/9b75c40980.js" crossorigin="anonymous"></script>
+        <style>
+                    
+        </style>
+    </head>
+    <body>
+        <header class="topo">
+                <nav>
+                    <ul id="meuslinks">
+                        <li><a style="color: blanchedalmond;" href="#">Inicio</a></li>
+                        <li><a style="color: blanchedalmond;" href="#">Sobre</a></li>
+                        <li><a style="color: blanchedalmond;" href="#">Desafio</a></li>
+                        <li><a style="color: blanchedalmond;" href="">Endereço</a></li>
+                    </ul>
+                    <a class="btnmenu" onclick="meuMenu()">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                </nav>
+        </header>
+        <!-- INCIO DO BANNER -->
+        <div class="banner">
+            <div class="container">
+                <div class="banner_text">
+                    <h1>DESENVOLVIMENTO<br>DE SISTEMAS 2020</h1>
+                    <hr>
+                    <P>SENAI INFORMÁTICA</P>
+                    <img src="images/mouse-down.png" alt="">
+                </div>  
+            </div> <!-- fim do banner-->
+
+
+            <div class="bk_sobre">
+                <section class="sobre">
+                    <h2>Sobre os Projetos</h2>
+                    <div class="conteudo_sobre">
+                        <img src="images/imagem-seção-sobre.jpg" alt="">
+                        <div class="texto_sobre">
+                            <h3><span class="tag">Participantes</span> 
+                                    <br>MAIS DE 80 MIL ALUNOS ORGANIZADOS EM 16 GRUPOS</h3>
+
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore alias accusantium aut rerum laboriosam totam? Maiores saepe ex magni quia earum, doloremque labore nobis reiciendis blanditiis! Voluptatibus id dolorum culpa!</p>
+
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="bk_info">
+                <section class="info">
+                    <div class="info_card">
+                        <h3>Local</h3>
+                        <p>São Paulo</p>
+                    </div>
+                    <div class="info_card">
+                        <h3>Duração</h3>
+                        <p>90 Dias</p>
+                    </div>
+                    <div class="info_card">
+                        <h3>Desafios</h3>
+                        <p>+30 Desafios</p>
+                    </div>
+                </section>
+            </div>
+           <section class="endereco">
+               <div class="content alinhando-centro-coluna">
+                   <div class="conteudo-endereco">
+                        
+                   </div>
+                   <h2>Endereço</h2>
+                   <div class="text-endereco">
+                       <p>Alamenda Barão de LImeira 539<br>
+                    Santa Cecília, São Paulo - SP<br>
+                    CEP: 01202-001
+                    </p>
+                    <img src="images/mapa.png" alt="">
+                   </div>
+                   </section>
+                   <footer class="rodape">
+                       <div class="content alinhando-centro">
+                           <p>Todos os Direitos Reservados</p>
+                           
+                       </div>
+            
+                   </footer>
+                  <a href="https://api.whatsapp.com/send?phone=11958817525"><img src="images/wpp.png" alt="envie-nos uma mensagem" class="wpp">
+               </div>
+               <script>
+                function meuMenu() {
+                  var ulDoMenu = document.getElementById("meuslinks");
+                  if (ulDoMenu.style.display === "flex") {
+                    ulDoMenu.style.display = "none";
+                  } else {
+                    ulDoMenu.style.display = "flex";
+                  }
+                }
+                </script>
+    
+            </body>
+
+</html>
